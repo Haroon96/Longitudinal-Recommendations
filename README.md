@@ -3,7 +3,7 @@
 ## Project Description
 Sock puppets are automated browser agents that perform a series of actions to collect some data. In this project, we used sock puppets to collect YouTube recommendations for far-left, left, moderate, right, and far-right YouTube users on a daily basis to see how they vary. We selected a set of videos whose ideology corresponded to the assigned ideology of the sock puppet. Every day, we initialized a new sock puppet that  would first collect the vanilla YouTube homepage. The sock puppet would then sample a 100 videos from this set and watch them (i.e., training). Once trained, the sock puppet would go collect the YouTube homepage recommendations (i.e., testing) and then follow a sequence of up-next recommendations starting from a pre-selected video.
 
-See `Analysis.ipynb` for a primer on how to use the data. We are primarily int
+See `Analysis.ipynb` for a primer on how to use the data. We are interested in coming up with analysis that helps differentiate recommendations for left and right users.
 
 <img src="static/blockdiagram.png">
 
