@@ -24,3 +24,5 @@ Download the data from [here](https://drive.google.com/file/d/11kb918lusOQHQrPQj
   - testing_start: indicates the start of testing, no data collected
   - testing_end: indicates the end of testing, no data collected
 - args: a list of input arguments to the sock puppet
+
+### [Timeline of Data Collection](static/timeline.html)
